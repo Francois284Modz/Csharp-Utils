@@ -38,7 +38,7 @@ namespace ModMenu_Genarator
             }
             catch (Exception ex)
             {
-                RzyProtector.Protector.AntiShit();
+               
                 //MessageBox.Show("Message not send Server is not responding", "Mod Menu Generator",MessageBoxButtons.OK,MessageBoxIcon.Error);
                   MessageBox.Show(ex.ToString());
             }
